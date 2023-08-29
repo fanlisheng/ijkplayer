@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "BIJKPlayer"
-  spec.version      = "0.7.16"
+  spec.name         = "FLSBIJKPlayer"
+  spec.version      = "1.2"
   spec.summary      = "ijkplayer iOS video player SDK"
 
   spec.author       = { "befovy" => "befovy@gmail.com" }
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.description  = "iOS video player based on FFmpeg n3.4, with VideoToolbox support."
 
 
-  spec.homepage     = "https://github.com/befovy/ijkplayer"
+  spec.homepage     = "https://github.com/fanlisheng/ijkplayer"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
   
-  spec.source = { :http => "https://github.com/befovy/ijkplayer/releases/download/f0.7.16/IJKMediaPlayer.tar.gz" }
+  spec.source = { :http => "https://github.com/fanlisheng/ijkplayer/releases/download/f1.2/IJKMediaFramework.tar.gz" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -117,7 +117,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.prepare_command = <<-CMD
-    tar -xvf ./IJKMediaPlayer.tar.xz
+    tar -xvf ./IJKMediaFramework.tar.xz
   CMD
 
   # spec.library   = "iconv"
